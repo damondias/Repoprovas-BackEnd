@@ -7,5 +7,6 @@ const testRouter =  Router();
 testRouter.use(validateTokenMiddleware)
 
 testRouter.get("/tests", testController.find)
+testRouter.get("/tests/:id ", )
 
 export default testRouter
